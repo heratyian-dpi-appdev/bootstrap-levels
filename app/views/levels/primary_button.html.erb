@@ -1,7 +1,35 @@
-<span>Click me!</span>
+<div>
+  <span class="btn btn-lg btn-primary">Click me!</span>
+</div>
 
 <style>
 
+  div {
+    margin-top: 20px;
+  }
   /* Write your CSS here to make the span look like a button. */
+  .btn {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .btn:hover {
+    background-color: darkblue;
+    cursor: pointer;
+  }
+
+  .btn:active {
+    filter: brightness(85%);
+  }
+
+  .btn-lg {
+    padding: 15px;
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: blue;
+  }
 
 </style>
